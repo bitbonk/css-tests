@@ -1,0 +1,62 @@
+div#container {
+    background: lightblue;
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    margin: 10px;
+}
+
+div.content
+{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: lightyellow;
+    text-align: center;
+    margin: auto;
+}
+
+div#topleft {
+}
+
+div#topcenter {
+    margin-right: -50px;
+    right: 50%;
+}
+
+div#topright {
+    right: 0;
+}
+
+div#centerleft {
+    top: 50%;
+    margin-top: -50px;
+}
+
+div#centercenter {
+    margin-top: -50px;
+    top: 50%;
+    margin-right: -50px;
+    right: 50%;
+}
+
+div#centerright {
+    right: 0;
+    margin-top: -50px;
+    top: 50%;
+}
+
+div#bottomleft {
+    bottom: 0;
+}
+
+div#bottomcenter {
+    bottom: 0;
+    margin-right: -50px;
+    right: 50%
+}
+
+div#bottomright {
+    right: 0;
+    bottom: 0;
+}
